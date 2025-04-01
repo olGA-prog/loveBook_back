@@ -21,10 +21,8 @@ if path not in sys.path:
     sys.path.append(path)
 
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'main.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'loveBook_back.main.settings')
 
 application = get_wsgi_application()
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'main.settings')
 
-application = get_wsgi_application()
