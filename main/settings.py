@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-sprh3#kzr=-_xr3!v*r-qjv-#f6&tg+js00q4uyutt$8zag4*0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangoPro123.pythonanywhere.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['boldly-kindred-tigerfish.cloudpub.ru', '127.0.0.1']
 STATICFILES_DIRS = [
 
 ]
@@ -130,8 +130,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5500",
-    "http://127.0.0.1:5500",
-    "https://olga-prog.github.io/lovebook_front/",
+    "http://127.0.0.1:8000",
+    "https://olga-prog.github.io",
+    "https://boldly-kindred-tigerfish.cloudpub.ru"
+    #"https://boldly-kindred-tigerfish.cloudpub.ru"
     # Add other origins that should be allowed
 ]
